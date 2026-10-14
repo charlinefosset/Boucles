@@ -9,13 +9,13 @@ class Program
          */
 
         // Etape 1 : faire un compteur qui va de 1 à 1
-        int croissant = 1;
+        
 
-        for (croissant = 1; croissant <= 10; croissant++)
+        for (int croissant = 1; croissant <= 10; croissant++)
         {
             Console.WriteLine(croissant);
         }
-        Console.ReadLine("");
+       
 
 
         // Etape 2 : faire un décompte qui va de 5 à 1 puis qui dit "Bonne année !"
