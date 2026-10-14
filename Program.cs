@@ -32,6 +32,10 @@ class Program
         }
 
         // Etape 4 : faire un compteur qui compte 2 par 2 de 0 à 15
+        for (int ddd = 0; ddd<=15; ddd+=2)
+        {
+            Console.WriteLine(ddd);
+        }
 
         // Etape 5 : faire une boucle qui se répète à chaque fois que l'utilisateur écrit autre chose que "oui"
 
