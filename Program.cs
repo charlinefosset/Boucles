@@ -38,6 +38,13 @@ class Program
         }
 
         // Etape 5 : faire une boucle qui se répète à chaque fois que l'utilisateur écrit autre chose que "oui"
+        string answer = "";
+        do
+        {
+            Console.WriteLine("veux tu sortir?");
+            answer = Console.ReadLine();
+        }
+        while (answer != "oui");
 
         /*
          * Après votre dernier commit, faites un push de votre projet pour qu'il soit accessible sur github.com
